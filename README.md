@@ -24,7 +24,7 @@ The following are needed for the application to run on a local computer:
 
 ## Getting Started
 
-To get started with this project on your local computer, clone the project onto your location of choice. Navigate into this folder using command line and first make sure that node modules are upto date by running `npm update` on the command line. After this run `ng serve` to start a local server. You may then navigate to `http://localhost:4200/` on your web browser to view the project Alternatively, you may also view the application by visiting https://alexkarari.github.io/Github-project/
+To get started with this project on your local computer, clone the project onto your location of choice. Navigate into this folder using command line and first make sure that node modules are upto date by running `npm update` on the command line. After this run `ng serve` to start a local server. You may then navigate to `http://localhost:4200/` on your web browser to view the project Alternatively, you may also view the application by visiting https://kenkibet.github.io/Github-project/
 
 
 ## Development server
@@ -72,4 +72,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
 
-Copyright (c) 2018 Ken Kibet 
+Copyright (c) 2021 Ken Kibet 
