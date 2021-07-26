@@ -24,7 +24,7 @@ The following are needed for the application to run on a local computer:
 
 ## Getting Started
 
-To get started with this project on your local computer, clone the project onto your location of choice. Navigate into this folder using command line and first make sure that node modules are upto date by running `npm update` on the command line. After this run `ng serve` to start a local server. You may then navigate to `http://localhost:4200/` on your web browser to view the project Alternatively, you may also view the application by visiting https://kenkibet.github.io/Github-project/
+To get started with this project on your local computer, clone the project onto your location of choice. Navigate into this folder using command line and first make sure that node modules are upto date by running `npm update` on the command line. After this run `ng serve` to start a local server. You may then navigate to `http://localhost:4200/` on your web browser to view the project Alternatively, you may also view the application by visiting https://kenkibet.github.io/Gihub-Tokens/
 
 
 ## Development server
