@@ -1,0 +1,47 @@
+<div class="container">
+  <app-profile-form></app-profile-form>
+
+  <div class="card">
+    <div class="card-body">
+      <div class="row align-content-center">
+        <div class="col-md-4">
+          <img src="{{user.avatar_url}}" class="w-100">
+          <table class="table">
+            <tr>
+              <td>Github username: </td>
+              <td class="label">{{user.login}}</td>
+            </tr>
+            <tr>
+              <td>Repositories: </td>
+              <td class="label">{{user.public_repos}}</td>
+            </tr>
+          </table>
+          <a href="{{user.html_url}}" class="btn btn-dark btn-block w-100" id="view">View Profile</a>
+        </div>
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header">
+              <h2>Repositories</h2>
+            </div>
+            <div class="card shadow py-4 px-4 my-3 mx-3" *ngFor='let repo of repoService.items ; let i = index'>
+              <h4 class="card-title" appHighlight> {{repoService.items[i].name|uppercase}}</h4>
+              <div class="card-text">
+                <p>{{repoService.items[i].description}}</p>
+                <div class="row">
+                  <div class="col">
+                    <a href="{{repoService.items[i].homepage}}" class="btn btn-dark w-100">View project</a>
+                  </div>
+                  <div class="col">
+                    <a href="{{repoService.items[i].html_url}}" class="btn btn-dark w-100">View Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
